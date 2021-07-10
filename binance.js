@@ -105,9 +105,11 @@ while(true){
     await page.goto("https://www.binance.com/en/activity/challenge-competition/BN1619390024480464897", {
         waitUntil: 'networkidle2'
     });
-
+    await delay(1000)
     await page.click("button.css-12hnkyh");
     await page.waitForSelector(".css-117q1xf", { visibe: true });
+    await delay(1000)
+
     await page.click(".css-117q1xf");
     await page.click(".css-f1b9tf");
     await page.waitForTimeout(2000);
