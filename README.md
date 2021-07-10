@@ -1,0 +1,2 @@
+# binanceAutoGacha
+install image magick 
