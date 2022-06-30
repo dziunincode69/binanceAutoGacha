@@ -1,5 +1,5 @@
 # binance Auto Gacha
-binace auto regis + slide captcha + spin <br>
+binace auto register + slide captcha + spin <br>
 require:<br>
  imagemagick  https://imagemagick.org/script/download.php <br>
 puppeteer <br>
